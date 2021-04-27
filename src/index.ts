@@ -21,5 +21,5 @@ export * from "./events/services-events/orders";
 // Types
 export * from "./events/types/order-status";
 
-// NATS
+// NATS Client
 export * from "./nats-wrapper"
