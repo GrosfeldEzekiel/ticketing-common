@@ -20,3 +20,6 @@ export * from "./events/services-events/orders";
 
 // Types
 export * from "./events/types/order-status";
+
+// NATS
+export * from "./nats-wrapper"
