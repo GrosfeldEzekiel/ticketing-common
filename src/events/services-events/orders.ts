@@ -18,6 +18,7 @@ export interface OrderCreatedEvent {
 export interface OrderCancelledEvent {
 	subject: subjects.OrderCancelled;
 	data: {
+		version?: number;
 		id: string;
 		ticket: {
 			id: string;

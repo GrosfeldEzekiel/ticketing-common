@@ -18,6 +18,7 @@ export * from './events/subjects';
 export * from './events/services-events/tickets';
 export * from './events/services-events/orders';
 export * from './events/services-events/expiration';
+export * from './events/services-events/payments';
 
 // Types
 export * from './events/types/order-status';
